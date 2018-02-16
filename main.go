@@ -27,6 +27,7 @@ func main() {
 				resp, err := http.Get(url)
 				if err != nil {
 					log.Write(wrap(url, 0, err.Error()))
+					continue
 				}
 				log.Write(wrap(url, resp.StatusCode, ""))
 				time.Sleep(time.Millisecond * 500)
