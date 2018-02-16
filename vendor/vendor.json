@@ -1,0 +1,31 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Ssktbpjqh4tN5BsyQ+/2zI1don4=",
+			"path": "github.com/blendlabs/go-exception",
+			"revision": "8d6614c6a381fe586fa618174af22043ff966730",
+			"revisionTime": "2017-10-24T19:22:40Z"
+		},
+		{
+			"checksumSHA1": "h7yN7KoTT1Whb2Tgo+9gECFtioY=",
+			"path": "github.com/blendlabs/go-logger",
+			"revision": "807ceff8f7d8bb11e4cd3b0363b0ea9469247860",
+			"revisionTime": "2017-11-29T01:16:50Z"
+		},
+		{
+			"checksumSHA1": "sYju+JUI2DOzsTSIY1DgNEeonKw=",
+			"path": "github.com/blendlabs/go-util",
+			"revision": "9935f10f642e46a498baa63aa0a9ef980a3d1b99",
+			"revisionTime": "2018-01-25T02:30:24Z"
+		},
+		{
+			"checksumSHA1": "WMoGAQNUiA400hAlmFdRdgpGs60=",
+			"path": "github.com/blendlabs/go-util/env",
+			"revision": "9935f10f642e46a498baa63aa0a9ef980a3d1b99",
+			"revisionTime": "2018-01-25T02:30:24Z"
+		}
+	],
+	"rootPath": "github.com/mat285/pinger"
+}
