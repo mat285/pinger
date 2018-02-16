@@ -1,6 +1,7 @@
 package main
 
 import (
+	"crypto/tls"
 	"net/http"
 	"os"
 	"strings"
@@ -17,6 +18,7 @@ type message struct {
 }
 
 func main() {
+	http.DefaultTransport.(*http.Transport).TLSClientConfig = &tls.Config{InsecureSkipVerify: true}
 	log := logger.All().WithWriter(logger.NewJSONWriterFromEnv())
 	urls := strings.Split(os.Getenv("URLS"), ",")
 	for _, url := range urls {
